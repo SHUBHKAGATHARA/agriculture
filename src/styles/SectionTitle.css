@@ -1,0 +1,79 @@
+/* Section Title Component */
+.section-title {
+  margin-bottom: 48px;
+}
+
+.section-title.centered {
+  text-align: center;
+}
+
+.title-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 12px;
+}
+
+/* White text for page headers */
+.page-header .title-heading {
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.title-subtitle {
+  font-size: 18px;
+  color: var(--gray-700);
+  margin-bottom: 16px;
+}
+
+/* White subtitle for page headers */
+.page-header .title-subtitle {
+  color: #ffffff;
+  opacity: 0.95;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 16px;
+}
+
+.title-underline {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-green), var(--secondary-green));
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+/* Gold underline for page headers */
+.page-header .title-underline {
+  background: linear-gradient(90deg, #ffd700, #f9a825);
+}
+
+.section-title:not(.centered) .title-underline {
+  margin: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    margin-bottom: 32px;
+  }
+
+  .title-heading {
+    font-size: 28px;
+  }
+
+  .title-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-heading {
+    font-size: 24px;
+  }
+
+  .title-subtitle {
+    font-size: 14px;
+  }
+}

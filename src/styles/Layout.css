@@ -1,0 +1,22 @@
+/* Layout Styles */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  transition: background-color 0.3s ease;
+}
+
+.main-content {
+  flex: 1;
+  margin-top: 85px;
+  position: relative;
+  width: 100%;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 75px;
+  }
+}

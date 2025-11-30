@@ -1,0 +1,272 @@
+/* About Page Styles */
+.about-page {
+  min-height: 80vh;
+}
+
+.page-header {
+  position: relative;
+  padding: 100px 0 80px;
+  background: linear-gradient(135deg, #1b5e20 0%, #2d7a3e 100%);
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1600&h=600&fit=crop') center/cover;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.page-header .container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+[data-theme="dark"] .page-header {
+  background: linear-gradient(135deg, #0d3d0f 0%, #1a5e1f 100%);
+}
+
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.story-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+[data-theme="dark"] .story-title {
+  color: var(--accent-gold);
+}
+
+.story-text {
+  font-size: 19px;
+  line-height: 1.9;
+  color: var(--text);
+}
+
+.story-image {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(27, 94, 32, 0.15);
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+  transition: var(--transition);
+}
+
+.story-image:hover img {
+  transform: scale(1.08);
+}
+
+/* Stats Section */
+.about-stats {
+  padding: 60px 0;
+  background: var(--gray-100);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 48px 28px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(27, 94, 32, 0.2);
+}
+
+.stat-number {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+.stat-label {
+  font-size: 22px;
+  opacity: 1;
+  font-weight: 500;
+}
+
+/* Mission Vision */
+.mission-vision {
+  padding: 80px 0;
+}
+
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+}
+
+.mission-card {
+  padding: 40px;
+  text-align: center;
+}
+
+.mv-icon {
+  font-size: 72px;
+  margin-bottom: 24px;
+}
+
+.mv-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: var(--primary);
+}
+
+.mv-text {
+  font-size: 18px;
+  line-height: 1.9;
+  color: var(--text);
+}
+
+/* Team Section */
+.team-section {
+  padding: 80px 0;
+  background: var(--gray-100);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.team-card {
+  text-align: center;
+  padding: 32px;
+}
+
+.team-image {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid var(--primary);
+  box-shadow: 0 6px 18px rgba(27, 94, 32, 0.2);
+}
+
+.team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--primary);
+}
+
+.team-role {
+  font-size: 20px;
+  color: var(--accent-gold);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.team-description {
+  font-size: 17px;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* Values Section */
+.values-section {
+  padding: 80px 0;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.value-card {
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.value-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  box-shadow: 0 4px 14px rgba(27, 94, 32, 0.25);
+}
+
+.value-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: var(--primary);
+}
+
+.value-text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 60px 0;
+  }
+
+  .story-title {
+    font-size: 28px;
+  }
+
+  .mission-vision,
+  .team-section,
+  .values-section {
+    padding: 60px 0;
+  }
+
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-number {
+    font-size: 40px;
+  }
+}
