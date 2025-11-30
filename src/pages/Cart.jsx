@@ -178,9 +178,9 @@ const Cart = () => {
             <Card className="support-info">
               <h4 className="info-title">મદદ જોઈએ?</h4>
               <p className="support-text">અમને કૉલ કરો:</p>
-              <p className="support-number">📞 +91 87993 80134</p>
+              <p className="support-number">📞 +91 98247 91578</p>
               <p className="support-text">WhatsApp:</p>
-              <p className="support-number">📱 +91 87993 80134</p>
+              <p className="support-number">📱 +91 98247 91578</p>
             </Card>
           </div>
         </div>

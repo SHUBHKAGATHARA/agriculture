@@ -175,14 +175,14 @@ const Contact = () => {
                 <div className="info-icon">📞</div>
                 <div className="info-details">
                   <strong>ફોન નંબર</strong>
-                  <p>+91 87993 80134</p>
+                  <p>+91 98247 91578</p>
                 </div>
               </div>
               <div className="info-item">
                 <div className="info-icon">📱</div>
                 <div className="info-details">
                   <strong>WhatsApp</strong>
-                  <p>+91 87993 80134</p>
+                  <p>+91 98247 91578</p>
                 </div>
               </div>
               <div className="info-item">

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import '../styles/FloatingWhatsapp.css';
 
 const FloatingWhatsapp = () => {
-  const phoneNumber = '918799380134';
+  const phoneNumber = '919824791578';
   const message = 'નમસ્તે, મને તમારા પ્રોડક્ટ વિશે વધુ જાણકારી જોઈએ છે.';
   
   const handleClick = () => {

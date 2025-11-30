@@ -31,8 +31,8 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-heading">સંપર્ક માહિતી</h4>
           <ul className="footer-contact">
-            <li>📞 +91 87993 80134</li>
-            <li>📱 WhatsApp: +91 87993 80134</li>
+            <li>📞 +91 98247 91578</li>
+            <li>📱 WhatsApp: +91 98247 91578</li>
             <li>📧 kagatharashubham9@gmail.com</li>
             <li>📍 લક્ષ્મીનારાયણ કોમ્પ્લેક્ષ, સરકારી હોસ્પિટલ પાસે, ધ્રોળ</li>
           </ul>

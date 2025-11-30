@@ -111,7 +111,7 @@ const Home = () => {
                 <Link to="/products" className="hero-btn secondary">
                   ઓફર જુઓ
                 </Link>
-                <a href="tel:8799380134" className="hero-btn phone">
+                <a href="tel:9824791578" className="hero-btn phone">
                   <FaPhone /> હમણાં કૉલ કરો
                 </a>
               </div>
@@ -222,7 +222,7 @@ const Home = () => {
                   પ્રોડક્ટ જુઓ
                 </Link>
                 <a
-                  href="https://wa.me/918799380134"
+                  href="https://wa.me/919824791578"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn whatsapp"
